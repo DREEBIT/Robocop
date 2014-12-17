@@ -14,6 +14,8 @@ typedef void (^RobocopRectOfInterestHandler)(CGRect rectOfInterest);
 
 @interface Robocop : NSObject
 
+@property (strong,	nonatomic) AVCaptureVideoPreviewLayer *previewLayer;
+
 + (instancetype)sharedInstance;
 
 - (void)startReadingInView:(UIView *)preview

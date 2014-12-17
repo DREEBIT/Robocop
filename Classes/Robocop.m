@@ -18,7 +18,6 @@
 @property (strong,	nonatomic) AVCaptureDeviceInput *input;
 @property (strong,	nonatomic) AVCaptureMetadataOutput *output;
 @property (strong,	nonatomic) AVCaptureSession *session;
-@property (strong,	nonatomic) AVCaptureVideoPreviewLayer *previewLayer;
 
 @end
 
