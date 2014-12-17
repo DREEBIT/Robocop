@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 
-typedef void (^RobocopCodeReaderHandler)(NSString *machineCodeString);
+typedef void (^RobocopCodeReaderHandler)(NSString *machineCodeString, AVMetadataMachineReadableCodeObject *metaData);
 typedef void (^RobocopRectOfInterestHandler)(CGRect rectOfInterest);
 
 @interface Robocop : NSObject

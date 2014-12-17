@@ -205,7 +205,7 @@ static Robocop * _sharedInstance = nil;
 	if ([metadata respondsToSelector:@selector(stringValue)]) {
 		machineCodeStr = [(AVMetadataMachineReadableCodeObject *)metadata stringValue];
 		if (self.machineReadbleCodeReaderHandler) {
-			self.machineReadbleCodeReaderHandler(machineCodeStr);
+			self.machineReadbleCodeReaderHandler(machineCodeStr, metadata);
 		}
 	}
 }
